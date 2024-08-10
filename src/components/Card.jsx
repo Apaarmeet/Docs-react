@@ -4,6 +4,7 @@ import { LuDownload } from "react-icons/lu";
 import { IoClose } from "react-icons/io5";
 import { motion } from "framer-motion"
 
+// this is the card code 
 
 function Card({data , reference}) {
   return (

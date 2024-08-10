@@ -1,6 +1,8 @@
 import React, { useRef } from 'react'
 import Card from './Card'
 
+// this is the foreground code
+
 function Foreground() {
 
 
