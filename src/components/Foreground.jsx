@@ -11,7 +11,13 @@ function Foreground() {
         {
         desc:"this is the background color of the display",
         filesize:".9mb",
-        close: true,
+        close: false,
+        tag:{isOpen: true, tagTitle:"Download Now", tagColor:"green"}
+    },
+    {
+        desc:"this is the background color of the display",
+        filesize:".9mb",
+        close: false,
         tag:{isOpen: true, tagTitle:"Download Now", tagColor:"green"}
     },
     {
@@ -24,6 +30,18 @@ function Foreground() {
         desc:"this is the background color of the display",
         filesize:".9mb",
         close: true,
+        tag:{isOpen: true, tagTitle:"upload", tagColor:"blue"}
+    },
+    {
+        desc:"this is the background color of the display",
+        filesize:".9mb",
+        close: false,
+        tag:{isOpen: false, tagTitle:"Upload", tagColor:"green"}
+    },
+    {
+        desc:"this is the background color of the display",
+        filesize:".9mb",
+        close: false,
         tag:{isOpen: false, tagTitle:"Upload", tagColor:"green"}
     },
 ];
